@@ -1,4 +1,4 @@
-/* Gianni M. — Ergothérapeute : animations & petits effets JS */
+/* Gianni Tiberi — Ergothérapeute : animations & petits effets JS */
 
 (function () {
   'use strict';
@@ -152,7 +152,7 @@ const ARTICLES = {
     return;
   }
 
-  document.title = data.title + ' — Gianni M., ergothérapeute';
+  document.title = data.title + ' — Gianni Tiberi, ergothérapeute';
   document.getElementById('article-category').textContent = data.category;
   document.getElementById('article-title').textContent = data.title;
   document.getElementById('article-image').src = data.image;
